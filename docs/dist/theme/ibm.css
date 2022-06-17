@@ -1,0 +1,115 @@
+.title {
+    font-size: 5rem; 
+    padding-bottom: 100px;
+    font-weight: 200;
+    text-align: left;
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+ .title {
+    font-size: 4rem;
+ }
+}
+
+.title-2{
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: left;
+}
+
+.copy-2{
+    padding-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: left;
+}
+
+.gray-background {
+    background-color: #f4f4f4;
+    height: 100vh;
+}
+
+.blue-background {
+    background-color: #0f62fe;
+    color: #fff;
+    padding-bottom: 120px;
+}
+
+.blue-border {
+    border-top: 2px solid #0f62fe;
+}
+
+.bullet--padding {
+    padding-right: 10vw;
+    padding-top: 50px;
+}
+
+.blue-font-color {
+    color: #0f62fe;
+}
+
+.bullet-list {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.bullet-list li{
+    padding-bottom: 100px;
+    list-style-type: none;
+    position: relative;
+    margin-left: 30px;
+}
+
+.bullet-list li::before {
+    content: '■';
+    color: #0f62fe;
+    position: absolute;
+    left: -0.8em;          
+    font-size: 1em;
+    top: -7px;     
+}
+
+.slides {
+    margin: 0 !important;
+}
+
+.bx--slide{
+    top: 0 !important;
+}
+
+.bx--grid-remove-space{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.bx--row-fullwidth{
+    width: 101vw !important
+}
+
+.col--padding-left{
+    padding-left: 13rem;
+}
+
+@media (max-width: 1600px) {
+    .col--padding-left {
+        padding-left: 1rem;
+    }
+}
+
+.padding-top-1{
+    padding-top: 40px
+}
+
+.slide2--padding-top{
+    padding-top: 55vh
+}
+
+@media (max-width: 670px) {
+    .title {
+        font-size: 4rem;
+    }
+    .slide2--padding-top {
+        padding-top: 0px;
+    }
+}
